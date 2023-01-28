@@ -17,5 +17,5 @@ print(repos)
 for r in repos:
     print(r)
     durl = 'https://artifactory/api/repositories/' + r
-    d = requests.delete(durl, auth=(user, apikeyx60))
+    d = requests.delete(durl, auth=(user, apikey))
     print(d)
